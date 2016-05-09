@@ -14,6 +14,7 @@
 		01E73B7B1CE081AF00F62616 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E73B791CE081AF00F62616 /* LaunchScreen.storyboard */; };
 		01E73B861CE081AF00F62616 /* sampleTableView002Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E73B851CE081AF00F62616 /* sampleTableView002Tests.swift */; };
 		01E73B911CE081AF00F62616 /* sampleTableView002UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E73B901CE081AF00F62616 /* sampleTableView002UITests.swift */; };
+		01E73B9F1CE0828000F62616 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E73B9E1CE0828000F62616 /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		01E73B8C1CE081AF00F62616 /* sampleTableView002UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleTableView002UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E73B901CE081AF00F62616 /* sampleTableView002UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleTableView002UITests.swift; sourceTree = "<group>"; };
 		01E73B921CE081AF00F62616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E73B9E1CE0828000F62616 /* detailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				01E73B701CE081AF00F62616 /* AppDelegate.swift */,
 				01E73B721CE081AF00F62616 /* ViewController.swift */,
+				01E73B9E1CE0828000F62616 /* detailViewController.swift */,
 				01E73B741CE081AF00F62616 /* Main.storyboard */,
 				01E73B771CE081AF00F62616 /* Assets.xcassets */,
 				01E73B791CE081AF00F62616 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				01E73B731CE081AF00F62616 /* ViewController.swift in Sources */,
 				01E73B711CE081AF00F62616 /* AppDelegate.swift in Sources */,
+				01E73B9F1CE0828000F62616 /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
